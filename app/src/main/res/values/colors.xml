@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEACC3</color>
+    <color name="colorPrimaryDark">#FEACC3</color>
+    <color name="colorAccent">#FFBACD</color>
+
+    <color name="window_background">#F5F5F5</color>
+    <color name="colorDivider">#D7D7D7</color>
+
+    <color name="light_blue">#5CACEE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_theme">#FFBACD</color>
+
+
+    <!-- 文本主颜色 -->
+    <color name="gary_color">#999999</color>
+
+    <!-- 按钮的背景 -->
+    <color name="btn_basic_bg">#FFBACD</color>
+    <color name="btn_basic_degree_bg">#FEACC3</color>
+
+    <color name="calender_weekdays_color">#F24949</color>
+    <color name="calender_week_color">#40000000</color>
+    <color name="color_text_pressed">#11CD6E</color>
+    <color name="color_text_selected">#FFFFFF</color>
+    <color name="color_hui">#AAAAAA</color>
+    <color name="color_black">#000000</color>
+</resources>

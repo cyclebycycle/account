@@ -1,0 +1,65 @@
+<resources>
+    <!--目录-->
+    <string name="app_name">小小记账本</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">小小记账本</string>
+    <string name="nav_header_subtitle">天天记哦</string>
+    <string name="nav_header_desc">小小记账本</string>
+    <string name="action_settings">设置</string>
+    <string name="toolmenu_add">添加</string>
+
+    <string name="nav_header_account">本月账单</string>
+    <string name="nav_header_accounts">历史账单</string>
+    <string name="nav_header_ys">财政计划</string>
+    <string name="nav_header_accout_all">总体统计</string>
+
+    <string name="nav_header_logout">注销</string>
+    <string name="nav_header_exit">退出</string>
+
+    <string name="rmb">￥</string>
+    <string name="outs">支出</string>
+    <string name="ins">收入</string>
+    <string name="toolmenu_add_done">完成</string>
+    <string name="toolmenu_add_cancle">取消</string>
+    <string name="dialog_cacle">取消</string>
+    <string name="dialog_ok">确定</string>
+
+    <!--登录-->
+    <string name="empty"></string>
+    <string name="btn_login">登录</string>
+    <string name="hint_username">请输入用户名</string>
+    <string name="hint_pwd">请输入密码</string>
+    <string name="tv_admin_register">管理员注册</string>
+    <string name="tv_register">注册</string>
+
+    <!-- 普通用户注册页 -->
+    <string name="hint_pwd_again">请确认密码</string>
+    <string name="hint_phonenumber">请输入手机号</string>
+    <string name="hint_email">请输入邮箱</string>
+    <string name="register">注册</string>
+
+    <!--设置界面-->
+    <string name="name">用户名</string>
+    <string name="phone">手机号码</string>
+    <string name="email">邮箱</string>
+    <string name="change_password">修改密码</string>
+    <string name="logout">注销账号</string>
+    <string name="exit">退出</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_get_client">GetClient</string>
+    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="income_type">收入类别管理</string>
+    <string name="outcome_type">支出类别管理</string>
+    <string name="month_decide">每月限额</string>
+
+    <!--修改密码-->
+    <string name="pwd_old">旧密码</string>
+    <string name="pwd_new">新密码</string>
+    <string name="confirm_pwd">确认密码</string>
+
+
+</resources>

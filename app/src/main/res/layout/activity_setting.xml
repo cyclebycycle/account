@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/space_10"
+            android:paddingTop="@dimen/space_10">
+
+            <TextView
+                android:id="@+id/user_name"
+                style="@style/fragment_user"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/name" />
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/fragment_user"
+                android:layout_weight="1"
+                android:gravity="right" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/space_10"
+            android:paddingTop="@dimen/space_10">
+
+            <TextView
+                style="@style/fragment_user"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/change_password" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/bt_income_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/space_10"
+            android:paddingTop="@dimen/space_10">
+
+            <TextView
+                style="@style/fragment_user"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/income_type" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bt_outcome_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/space_10"
+            android:paddingTop="@dimen/space_10">
+
+            <TextView
+                style="@style/fragment_user"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/outcome_type" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bt_month_decide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/space_10"
+            android:paddingTop="@dimen/space_10">
+
+            <TextView
+                style="@style/fragment_user"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/month_decide" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/space_10"
+            android:paddingTop="@dimen/space_10">
+
+            <TextView
+                style="@style/fragment_user"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@string/logout" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
